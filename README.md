@@ -1,4 +1,7 @@
 # Xtactics-Hotkey
+## Project Status
+- **Status**: Complete
+![Complete](https://img.shields.io/badge/status-Complete-brightgreen)
 
 **Xtactics-Hotkey** is a Python script designed to enhance the gaming experience for **Xtactics** by providing convenient hotkeys. Utilizing the `pyautogui` library, this script automates certain actions in the game, allowing players to perform tasks more efficiently.
 
