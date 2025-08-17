@@ -1,7 +1,3 @@
-This document provides an overview, installation instructions, usage details, and other relevant information.
-
----
-
 # Xtactics-Hotkey
 
 **Xtactics-Hotkey** is a Python script designed to enhance the gaming experience for **Xtactics** by providing convenient hotkeys. Utilizing the `pyautogui` library, this script automates certain actions in the game, allowing players to perform tasks more efficiently.
@@ -20,17 +16,24 @@ This document provides an overview, installation instructions, usage details, an
   - `pyautogui`
   - `keyboard`
 
-You can install the required libraries using pip:
-
-```bash
-pip install pyautogui keyboard
-```
+You can install the required libraries using the provided `requirements.txt` file.
 
 ## Installation
 
 1. Clone the repository or download the script file.
 2. Ensure you have Python installed on your system.
-3. Install the required libraries as mentioned above.
+3. Install the required libraries by running:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   The `requirements.txt` file includes:
+
+   ```
+   pyautogui==0.9.53
+   keyboard==0.13.5
+   ```
 
 ## Usage
 
@@ -59,4 +62,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ---
 
-Feel free to modify any sections to better fit your project's specifics or your personal preferences!
+Feel free to customize any sections further to better fit your project's specifics or your personal preferences!
